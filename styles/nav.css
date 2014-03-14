@@ -66,12 +66,12 @@ nav ul {
 
 .hNav {
 	height: 50px;
-	width: 550px;
+	width: 560px;
 	margin:0 auto; margin-bottom: 9px; padding:5px;
 }
 
 		.hNav li:hover > ul {
-			display: block;          
+			display: block;
 		}
 
 	.hNav:before {
@@ -106,7 +106,7 @@ nav ul {
 			-moz-box-shadow: -1px 1px 0px 0.2px #1D1D1D;
 				-webkit-box-shadow: -1px 1px 0px 0.2px #1D1D1D;
 
-		background: #6d6d6d; 
+		background: #6d6d6d;
 			background: -moz-linear-gradient(top, #6d6d6d 1%, #6d6d6d 49%, #4f4f4f 51%, #4f4f4f 100%); /* FF3.6+ */
 				background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#6d6d6d), color-stop(49%,#6d6d6d), color-stop(51%,#4f4f4f), color-stop(100%,#4f4f4f)); /* Chrome,Safari4+ */
 					background: -webkit-linear-gradient(top, #6d6d6d 1%,#6d6d6d 49%,#4f4f4f 51%,#4f4f4f 100%); /* Chrome10+,Safari5.1+ */
