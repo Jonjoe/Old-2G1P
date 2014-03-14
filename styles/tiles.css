@@ -1,0 +1,234 @@
+.tile {
+width:310px;
+margin:10 0 10 15;
+color:white;
+position: relative;
+left: 712px;
+top: -883px;
+
+/* IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+/* Good browsers */
+opacity: 0.9;
+}
+
+.tile:first-child {
+margin-left:0;
+}
+
+.tile:before {
+content: "";
+display: table;
+}
+
+.tile:after {
+content: "";
+display: table;
+clear: both;
+}
+
+ #headText {
+ 	position: absolute;
+	top: 12px;
+	left: 98px;
+
+ }
+
+.tileHead {
+height:40px;width:100%;
+
+background: linear-gradient(left, white 90%, #white 90%);
+border-left: solid 3 black;
+border-right:solid 3 black;
+border-top:solid 3 black;
+border-top-left-radius :5px;
+border-top-right-radius:5px;
+background:#24425c;
+
+/* IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+/* Good browsers */
+opacity: 0.9;
+
+}
+
+.tileBody {
+height:286px;width:100%;
+background:#24425c;
+border-right:solid 3 black;
+border-bottom:solid 3 black;
+border-left:solid 3 black;
+border-bottom-left-radius :5px;
+border-bottom-right-radius:5px;
+
+/* IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+/* Good browsers */
+opacity: 0.9;
+
+}
+
+.tileBody:before {
+content: "";
+display: table;
+}
+
+.tileBody:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.tileWrap {
+height:275px;
+margin: 0 5 0 5;
+background:#4c4c4d;
+border: solid 3 black;
+border-radius :5px;
+
+}
+
+.tileWrap:before {
+content: "";
+display: table;
+}
+
+.tileWrap:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.tileContainer {
+height:255px; width:100%;
+
+/* IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+/* Safari 1.x */
+-khtml-opacity: 0.9;
+
+/* Good browsers */
+opacity: 0.9;
+
+}
+
+.tileFooter {
+height:20px;width:100%;
+float:left;
+border-top:1 solid black;
+
+/* IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+/* Safari 1.x */
+-khtml-opacity: 0.9;
+
+/* Good browsers */
+opacity: 0.9;
+
+}
+
+
+/* Large Tiles Syles 
+
+.tileHead {
+height:40px;width:100%;
+
+background: linear-gradient(left, white 90%, #white 90%);
+border-left: solid 3 black;
+border-right:solid 3 black;
+border-top:solid 3 black;
+border-top-left-radius :5px;
+border-top-right-radius:5px;
+background:#24425c;
+
+/* IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+/* Good browsers */
+opacity: 0.9;
+
+}
+
+.tileBody>Large {
+height:286px;width:100%;
+background:#24425c;
+border-right:solid 3 black;
+border-bottom:solid 3 black;
+border-left:solid 3 black;
+border-bottom-left-radius :5px;
+border-bottom-right-radius:5px;
+
+/* IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+/* Good browsers */
+opacity: 0.9;
+
+}
+
+.tileBody:before {
+content: "";
+display: table;
+}
+
+.tileBody:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.tileWrap {
+height:275px;
+margin: 0 5 0 5;
+background:#4c4c4d;
+border: solid 3 black;
+border-radius :5px;
+
+}
+
+.tileWrap:before {
+content: "";
+display: table;
+}
+
+.tileWrap:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.tileContainer {
+height:255px; width:100%;
+
+/* IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+/* Safari 1.x */
+-khtml-opacity: 0.9;
+
+/* Good browsers */
+opacity: 0.9;
+
+}
+
+.tileFooter {
+height:20px;width:100%;
+float:left;
+border-top:1 solid black;
+
+/* IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+/* Safari 1.x */
+-khtml-opacity: 0.9;
+
+/* Good browsers */
+opacity: 0.9;
+
+}
+
