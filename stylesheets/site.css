@@ -560,7 +560,7 @@ ul:after {
 /* line 57, ../sass/site.scss */
 .servers li:before {
   font-weight: 900;
-  background: red;
+  background: #e74c3c;
   content: "DOWN";
   padding: 25px 10px;
   float: left;
